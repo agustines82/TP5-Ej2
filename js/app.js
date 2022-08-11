@@ -107,8 +107,7 @@ function generacion(e) {
     let nacimiento = document.getElementById("anio").value;
     let dataPersona = new Persona(nombre, edad, dni, sexo, peso, altura, nacimiento);
     // console.log(dataPersona);
-    //dataPersona.mostrarGeneracion();
-    dataPersona.mostrarDatos();
+    dataPersona.mostrarGeneracion();
 }
 
 function mayoria(e) {
